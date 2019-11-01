@@ -3,7 +3,7 @@
 IFACE="wlan0"
 HOST=$(hostname)
 RRDFILE='/home/pi/wifi-quality.rrd'
-PNGPREFIX="/home/pi/${hostname}-wifi-quality"
+PNGPREFIX="/home/pi/${HOST}-wifi-quality"
 
 if [[ ! -e $RRDFILE ]]; then
     # 2 days of 5 min data, 1440 * 1 hr = 60 days, 1825 * 1 day = 5 years, 600 * 1 month = 50 years
