@@ -3,10 +3,10 @@
 
 ## dweetIP
 
-Script to [https://dweet.io/](dweet) IP address. Intended to be run from cron.
+Script to [dweet](https://dweet.io/) IP address. Intended to be run from cron.
 
 ## dweetOG
 
-Script to [https://dweet.io/](dweet) door status and some statistics from an [https://opengarage.io/](OpenGarage) unit.
+Script to [dweet](https://dweet.io/) door status and some statistics from an [OpenGarage](https://opengarage.io/) unit.
 
 
