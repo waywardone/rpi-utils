@@ -2,8 +2,8 @@
 
 IFACE="wlan0"
 HOST=$(hostname)
-RRDFILE='~/wifi-quality/wifi-quality.rrd'
-PNGPREFIX="~/wifi-quality/${HOST}-wifi-quality"
+RRDFILE=~/wifi-quality/wifi-quality.rrd
+PNGPREFIX=~/wifi-quality/${HOST}-wifi-quality
 
 mkdir -p ~/wifi-quality
 
