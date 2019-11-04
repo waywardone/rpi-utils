@@ -5,6 +5,8 @@ HOST=$(hostname)
 RRDFILE='~/wifi-quality/wifi-quality.rrd'
 PNGPREFIX="~/wifi-quality/${HOST}-wifi-quality"
 
+mkdir -p ~/wifi-quality
+
 if [[ ! -e $RRDFILE ]]; then
     # 2 days of 5 min data, 1440 * 1 hr = 60 days, 1825 * 1 day = 5 years, 600 * 1 month = 50 years
     /usr/bin/rrdtool create $RRDFILE \
